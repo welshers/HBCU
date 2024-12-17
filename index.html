@@ -15,26 +15,24 @@
 	</header>
 
 	<center>
-		<label>Day: </label>
-    <select id="day">
-      <option value="Monday">monday</option>
-      <option value="Tuesday">tuesday</option>
-      <option value="Wednesday">wednesday</option>
-      <option value="Thursday">thursday</option>
-      <option value="Friday">friday</option>
-      <option value="Saturday">saturday</option>
-      <option value="Sunday">sunday</option>
+		<label>Choose Year: </label>
+    <select id="year">
+    
     </select>
     <br>
     <br>
 
-    <label>Age: </label>
-    <input type="text" id="age"><br><br>
+    <label>Gender: </label>
+    <select id="gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Total">Total</option>
+    </select>
       
     <label>Discount Code: </label>
     <input type="text" id="discount"><br><br>
 
-    <button onclick="getTicket()">Create My Ticket!</button>
+    <button>Create My Ticket!</button>
 
     <div class="outputBox">
       <h2>Admit One</h2>
@@ -43,6 +41,7 @@
 	  </div>
 
   </center>
+    <script src="utils.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
